@@ -1,22 +1,23 @@
 /*  NAVBAR STYLE  */
 
 .navbar {
-    background-color: #f9f9f9;  
+    background-color: #ffffff;  
     overflow: hidden;
     font-family: Arial, sans-serif;
-    
+
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    
+
     padding: 10px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
 }
 
 /* الشكل الأساسي للأزرار */
 .navbar a {
-    float: right;
     display: block;
     padding: 15px 20px;
     text-decoration: none;
@@ -27,9 +28,9 @@
     color: white;
     background-color: #3a3a3a;  /* خلفية ثابتة للأزرار */
 }
-
 .navbar a:hover {
     background-color: #73b0da;
+;
     color: white;
 }
 
@@ -37,8 +38,8 @@
 /*   BODY  */
 
 body {
-    direction: rtl;
-    text-align: right;
+    direction: ltr;
+    text-align: left;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
@@ -46,14 +47,14 @@ body {
     line-height: 1.6;
     color: #222;
     padding-top: 80px;
+    
 }
 
-
-/*  CONTENT  */
+/*  CONTENT   */
 
 .content {
     width: 90%;
-    margin: 20px auto ;
+    margin: 20px  auto;
 }
 
 section {
@@ -88,7 +89,8 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color:  #4CAF50;
+;
     color: white;
 }
 
@@ -100,11 +102,10 @@ body.dark {
     color: #ffffff;
 }
 
+
 body.dark .navbar {
-    background-color: #1a1a1a;
+   background-color: #1a1a1a;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-
-
 }
 
 /* أزرار الدارك */
@@ -114,7 +115,7 @@ body.dark .navbar a {
 }
 
 body.dark .navbar a:hover {
-    background-color:  #73b0da;
+    background-color: #73b0da;
 ;
     color: #000;
 }
@@ -145,7 +146,8 @@ body.dark table {
 }
 
 body.dark th {
-    background-color: #2e7d32;
+    background-color: #4CAF50;
+;
 }
 
 body.dark td {
@@ -153,7 +155,8 @@ body.dark td {
 }
 
 
-/*تنسيق خلفية شعار الهيئة*/
+/*  تنسيق خلفية شعار الهيئة  */
+
 .logo {
     text-align: center;
     padding: 20px 0;
@@ -185,9 +188,8 @@ body.dark td {
     }
 
 }
-/*تنسيق مقاسات الصورة في الجوال*/
-
+/*تعديل مقاسات الصورة للجوال*/
 img {
     max-width: 100%;
-    height: auto;
+height: auto;
 }
